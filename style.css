@@ -12,6 +12,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: background-image 0.6s;
     background-image: url(/images/city_constant.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -57,6 +58,7 @@ body{
 }
 
 .weather-body{
+    transition: 0.6s;
     display: none;
     justify-content: center;
     align-items: center;
@@ -64,6 +66,7 @@ body{
     margin-block: 20px;
 }
 .weather-body img{
+    transition: 0.6s;
     width: 50%;
 }
 
